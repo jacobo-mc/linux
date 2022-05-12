@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+[NetDev]
+Name=bridge99
+Kind=bridge
+
+[Bridge]
+HelloTimeSec=9
+MaxAgeSec=9
+ForwardDelaySec=9
+AgeingTimeSec=9
+Priority=9
+MulticastQuerier= true
+MulticastSnooping=true
+STP=true
+MulticastIGMPVersion=3
